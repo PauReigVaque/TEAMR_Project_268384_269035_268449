@@ -6,6 +6,7 @@ DEEP LEARNING FOR SKIN DISEASE CLASSIFICATION
 Team information:
 
 Members: 
+  
   Yuxiang Jiang, 268449
 
   Pau Reig Vaqué, 269035
