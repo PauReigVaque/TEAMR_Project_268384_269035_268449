@@ -17,20 +17,28 @@ Team code:
 
 Team R
 
+## What this project is about?
 
+A small project developed in 2 weeks for the final project of the Deep Learning Course 2025. Our project proposes a lightweight CNN inspired by MobileNetV2, and explores several possible improvements. The goal is to reach a test accuracy close to the best existing model on the same dataset — the VGG16 model, which achieves 89% accuracy.
 
 ## How to run the code
 
-To execute the code, you will need the images from the dataset. Since the dataset is too large, we were unable to upload it directly. Therefore, we recommend visiting the following page: 
+This project was developed entirely in Google Colaboratory. Due to the large size of the dataset, we couldn’t include it directly in the repository.
+
+To run the notebook, you’ll first need to download the dataset manually from Kaggle:
 
 https://www.kaggle.com/datasets/pritpal2873/multiple-skin-disease-detection-and-classification
 
-which contains the original dataset we used in pur project.
+Steps to Run:
 
-Once you have downloaded the dataset, follow these steps:
+  1.  Clone the repository and open the notebook in an environment that supports Google Colab (e.g., Google Drive or your local machine with Jupyter/Colab integration).
+  2.  Download the dataset from the Kaggle link above and place it inside a folder named `data` at the root of the project.
+  3.  Update the path variable in the notebook to point to the correct location of the data folder.
 
-  1.  Create a main folder for the project in your Google Drive and place the code there.
-  2.  Inside this folder, create another folder called `data` and place the different class folders from the dataset inside it.
-  3.  In the code, update the variable `p3_lab` to match the path to your project folder.
+After completing these steps, you should be able to run the code successfully.
 
-After completing these three steps, you should be able to run the code successfully.
+## Disclaimer
+
+This project is provided for educational and research purposes only. We do not make any guarantees about the correctness, performance, or safety of the code. By using this repository, you agree that the authors are not responsible for any issues, damages, or losses that may arise from its use.
+
+Please use it at your own risk.
