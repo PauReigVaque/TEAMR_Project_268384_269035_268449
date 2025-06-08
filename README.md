@@ -24,7 +24,8 @@ Steps to Run:
 
   1.  Clone the repository and open the notebook in an environment that supports Google Colab (e.g., Google Drive or your local machine with Jupyter/Colab integration).
   2.  Download the dataset from the Kaggle link above and place it inside a folder named `data` at the root of the project.
-  3.  Update the path variable in the notebook to point to the correct location of the data folder.
+  3.  Ensure the `results_def` folder is present in the main directory of the project. If it’s not included after cloning the repository, download it manually from the GitHub repository and place it in the main directory.
+  4.  Update the paths (path, results_path, new_path) in the notebook to point to the correct location of the data and results_def folders.
 
 After completing these steps, you should be able to run the code successfully.
 
